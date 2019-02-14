@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang = "ro">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Dogs Information">
+  	<meta name="keywords" content="dogs, animals, history">
+  	<meta name="author" content="Nedelcu Adelin">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Cainele</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico"/>
+
+	<link rel="stylesheet" type="text/css" href="./css/menu_style.css">
+	<link rel="stylesheet" type="text/css" href="./css/main_style.css">
+	<link rel="stylesheet" type="text/css" href="./css/slideshow_style.css">
+	<script src="./js/setupGame.js"></script>
+</head>
+
+<body>
+<header>
+<nav>
+	<ul class = "menu">
+		<li><a href ="">Informatii generale</a>
+			<ul class = "submenu">
+				<li><a href = "Provenienta_numelui.html">Provenienta numelui</a></li>
+				<li><a href = "#speranta_de_viata">Speranta de viata</a></li>
+			</ul>
+		</li>
+		<li><a href = "Domesticirea.html">Domesticirea</a></li>
+		<li><a href = "Istoric.html">Istoric</a></li>
+		<li><a href = "#slideshow">Slideshow</a></li>
+	</ul>
+</nav>
+</header>
+
+ 	<section class = "mainsection">
+
+ 	<section class = "subsection">
+
+	<img class = "dog_img" src="./img/dog_image.jpg" alt = "dog image">
+		<h1 class = "title">Cainele</h1>
+	<article>
+		<h2 class = "subtitle" style = "text-align: left;">Generalitati</h2>
+	<p>Cainele (<i>Canis lupus familiaris</i>) este una dintre subspeciile lupului cenușiu, fiind un mamifer carnivor din familia canidelor. Câinele este posibil să fie primul animal domesticit și cel mai folosit pentru muncă, vânătoare și companie din istoria oamenilor. Cuvântul „câine” denumește masculul speciei, iar termenul „cățea” este folosit pentru femelă. </p>
+	</article>
+
+	</section>
+	<section class = "subsection">
+	<h2 class = "subtitle">Talie</h2>
+
+	<p>În mod convențional, câinii sunt clasificați după talie (înălțimea de la sol până la greabăn) în următoarele categorii:</p>
+
+	<table>
+		<caption>Categorii clasificare</caption>
+		<tr>
+			<th>Talie</th>
+			<th>Dimensiune(cm)</th>
+			<th>Exemple</th>
+		</tr>
+		<tr>
+			<td>mare</td>
+			<td>peste 65</td>
+			<td>Dog German</td>
+		</tr>
+		<tr>
+			<td>medie</td>
+			<td>50-65</td>
+			<td>Labrador retriever</td>
+		</tr>
+		<tr>
+			<td>mică</td>
+			<td>35-50</td>
+			<td>Border Collie</td>
+		</tr>
+		<tr>
+			<td>pitică</td>
+			<td>sub 35</td>
+			<td>Chihuahua</td>
+		</tr>
+	</table>
+
+	</section>
+
+	<section class = "subsection special">
+		<!-- Slideshow -->
+		<h2 class = "subtitle">Galerie - Slideshow</h2>
+		<div id = "slideshow">
+
+		<figure>
+			<img src="./img/photo_slides_1.jpg" class = "slider_img" alt = "dog_pic_1">
+			<img src="./img/photo_slides_2.jpg" class = "slider_img" alt = "dog_pic_2">
+			<img src="./img/photo_slides_3.jpg" class = "slider_img" alt = "dog_pic_3">
+			<img src="./img/photo_slides_4.jpg" class = "slider_img" alt = "dog_pic_4">
+			<img src="./img/photo_slides_5.jpg" class = "slider_img" alt = "dog_pic_5">
+		</figure>
+		</div>
+	</section>
+
+	<section class = "subsection" id = "speranta_de_viata">
+		<h2 class = "subtitle"> Speranta de Viata </h2>
+		<p>Speranța de viață a câinilor este între 8 și 15 ani, în funcție de rasă. Cel mai longeviv câine despre care există date a trăit 30 de ani.</p>
+	</section>
+	<section class = "subsection">
+		<h2 class = "subtitle">10 Cele mai rare rase de caini!</h2>
+		<video width="500" height="400" controls>
+  			<source src="./video/dog_video.mp4" type="video/mp4">
+  		</video>
+	</section>
+	<section class = "subsection">
+		<h3>Bibliografie</h3>
+		<p class = "bib"><a href = "https://ro.wikipedia.org/wiki/C%C3%A2ine">Wikipedia</a></p>
+		<p class = "bib"><a href="https://www.youtube.com/watch?v=YHNHKZSplbo">Youtube</a></p>
+		<p class = "bib"><a href="https://ro.wiktionary.org/wiki/c%C3%A2ine">Wikitionary</a></p>
+
+	</section>
+	<section class = 'subsection'>
+			<p>Apasati butonul urmator daca vreti sa incercati sa castigati un cupon in valoare de 100 RON utilizabil in magazinele cu produse canine</p>
+			<button id = 'playButton' onclick = 'playGame()'>Click to win!</button>
+		</section>
+	</section>
+
+	<a href="#top"><img src="img/top_button.jpg" class = "top_button" alt = "top_button"></a>
+	<canvas></canvas> <!-- va fi folosit pt jocul js -->
+	<footer >
+		<ul class = "footer_content">
+		<li class  = "postedby">&#169 Copyright: Adelin Nedelcu</li>
+		<li class = "contact">Contact information: <a href = "mailto:n.adelin0223@gmail.com">n.adelin0223@gmail.com</a></li>
+	</ul>
+	</footer>
+</body>
+</html>

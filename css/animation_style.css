@@ -1,0 +1,113 @@
+.paws {
+	background: url('../img/animation-background.jpg');
+	height    : 13.5rem;
+	opacity   : 0.4;
+	position  : absolute;
+	visibility: hidden;
+	width     : 12.2rem;
+	z-index   : 0;
+}
+.paw1 {
+	animation-duration       : 6s;
+	animation-iteration-count: 1;
+	animation-name           : background_paws;
+	animation-play-state     : running;
+	left                     : 0;
+	top                      : 30rem;
+	transform                : rotate(115deg);
+}
+
+.paw2{
+	animation-delay          : 1s;
+	animation-duration       : 6s;
+	animation-iteration-count: 1;
+	animation-name           : background_paws;
+	animation-play-state     : running;
+	left                     : 16%;
+	top                      : 35rem;
+	transform                : rotate(95deg);
+	
+}
+
+.paw3{
+	animation-delay          : 2s;
+	animation-duration       : 6s;
+	animation-iteration-count: 1;
+	animation-name           : background_paws;
+	animation-play-state     : running;
+	left                     : 32%;
+	top                      : 32rem;
+	transform                : rotate(60deg);
+
+}
+
+.paw4{
+	animation-delay          : 3s;
+	animation-duration       : 6s;
+	animation-iteration-count: 1;
+	animation-name           : background_paws;
+	animation-play-state     : running;
+	left                     : 48%;
+	top                      : 23rem;
+	transform                : rotate(35deg);
+}
+
+.paw5 {
+	animation-delay          : 4s;
+	animation-duration       : 6s;
+	animation-iteration-count: 1;
+	animation-name           : background_paws;
+	animation-play-state     : running;
+	left                     : 64%;
+	top                      : 13rem;
+	transform                : rotate(55deg);
+}
+
+.paw6 {
+	animation-delay: 5s;
+	animation-duration: 6s;
+	animation-iteration-count: 1;
+	animation-name: background_paws;
+	animation-play-state: running;
+	left: 80%;
+	top: 9rem;
+	transform: rotate(75deg);
+}
+@keyframes background_paws {
+	0% {
+		visibility: hidden;
+	}
+ 	100% {
+		visibility: visible;
+	}
+}
+
+@media only screen and (max-width: 768px)
+{
+	.paws {
+		display: none;
+	}
+	.paw1 {
+		animation-play-state: paused;
+	}
+
+	.paw2 {
+		animation-play-state: paused;
+	}
+
+	.paw3 {
+		animation-play-state: paused;
+	}
+
+	.paw4 {
+		animation-play-state: paused;
+	}
+
+	.paw5 {
+		animation-play-state: paused;
+	}
+
+	.paw6 {
+		animation-play-state: paused;
+	}
+}
